@@ -1,1 +1,2 @@
-# sorting_algorithms
+<h1>Sorting Algorithms</h1>
+<p>This repo contains sorting algorithm functions, their time complexity in the best and worst case scenario.It is part of the project series in my software engineering curriculum at ALX-Holberton</p>
