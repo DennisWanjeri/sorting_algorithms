@@ -13,7 +13,6 @@ void counting_sort(int *array, size_t size)
 	output = malloc(sizeof(int) * size);
 	if (output == NULL)
 		return;
-	/*find largest element of the array*/
 	max = array[0];
 	for (i = 1; i < (int)size; i++)
 	{
@@ -33,9 +32,7 @@ void counting_sort(int *array, size_t size)
 	}
 	/*store the cumulative count of each array*/
 	for (i = 0; i <= max; i++)
-	{
 		count[i] += count[i - 1];
-	}
 	print_array(count, max + 1);
 	/*Find the index of each element of the original array*/
 	/*in count array ,place elements in output array*/
