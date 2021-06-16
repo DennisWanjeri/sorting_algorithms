@@ -7,7 +7,7 @@
  *@node2:pointer to node2
  *Return:void
  */
-void swap_node(listint_t **head,listint_t *node1, listint_t *node2)
+void swap_node(listint_t **head, listint_t *node1, listint_t *node2)
 {
 	listint_t *tmp;
 
