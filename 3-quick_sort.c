@@ -1,7 +1,7 @@
 #include "sort.h"
 /**
  *partition - partitions an array, using last elwment as pivot
- *array:array to sort
+ *@array:array to sort
  *@low:lowest array index
  *@high:highest array index
  *Return:index of pivot
